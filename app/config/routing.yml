@@ -5,3 +5,6 @@ app:
 light_saml_sp:
     resource: "@LightSamlSpBundle/Resources/config/routing.yml"
     prefix: saml
+
+logout:
+    path: /logout

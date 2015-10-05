@@ -23,7 +23,9 @@
         "lightsaml/sp-bundle": "dev-master"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "squizlabs/php_codesniffer": "~2.0",
+        "phpunit/phpunit": "~4.5"
     },
     "scripts": {
         "post-install-cmd": [

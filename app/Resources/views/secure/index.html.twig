@@ -4,5 +4,5 @@
     <h1>SECURE</h1>
 
     <p>Hello <b>{{ app.security.token.username }}!</b></p>
-    <p><a href="#">Logout</a></p>
+    <p><a href="{{ path('logout') }}">Logout</a></p>
 {% endblock %}

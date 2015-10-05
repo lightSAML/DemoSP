@@ -14,6 +14,12 @@ security:
             security: false
 
         main:
+            light_saml_sp:
+                provider: in_memory
+                login_path: /saml/login
+                check_path: /saml/login_check
+            logout:
+                path: /logout
             anonymous: ~
             # activate different ways to authenticate
 
@@ -24,4 +30,4 @@ security:
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
 
     access_control:
-#        - { path: ^/, roles: ROLE_USER }
+        - { path: ^/secure, roles: ROLE_USER }

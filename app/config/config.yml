@@ -79,7 +79,7 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
-light_saml_sp:
+light_saml_symfony_bridge:
     own:
         entity_id: http://localhost/lightsaml/demosp
         credentials:
@@ -87,3 +87,9 @@ light_saml_sp:
                 certificate: %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/saml.crt
                 key:         %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/saml.key
                 password:    ~
+    party:
+        idp:
+            files:
+                - %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/openidp.feide.no.xml
+                - %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/lightsaml.local.idp.xml
+                - %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/testshib-providers.xml

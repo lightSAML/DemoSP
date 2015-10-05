@@ -3,5 +3,7 @@
 {% block content %}
     <h1>Unsecure</h1>
 
-    <p><a href="{{ path('secure.home') }}">Login</a></p>
+    <p><a href="{{ path('secure.home') }}">Secure area</a></p>
+    <p><a href="{{ path('lightsaml_sp.metadata') }}">SAML Metadata</a></p>
+    <p><a href="{{ path('lightsaml_sp.discovery') }}">SAML Discovery</a></p>
 {% endblock %}
