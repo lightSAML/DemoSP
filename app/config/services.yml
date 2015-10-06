@@ -4,6 +4,8 @@ parameters:
 #    parameter_name: value
 
 services:
-#    service_name:
-#        class: AppBundle\Directory\ClassName
-#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+    user_creator:
+        class: AppBundle\Security\User\UserCreator
+        arguments:
+            - "@=service('doctrine').getManager()"
+            - @light_saml_sp.username_mapper.simple
