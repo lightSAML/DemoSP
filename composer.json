@@ -21,7 +21,6 @@
 
         "doctrine/doctrine-migrations-bundle": "^1.0",
 
-        "lightsaml/lightsaml": "dev-master",
         "lightsaml/sp-bundle": "dev-master"
     },
     "require-dev": {

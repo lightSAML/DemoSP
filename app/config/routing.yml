@@ -2,7 +2,7 @@ app:
     resource: "@AppBundle/Controller/"
     type:     annotation
 
-light_saml_sp:
+lightsaml_sp:
     resource: "@LightSamlSpBundle/Resources/config/routing.yml"
     prefix: saml
 
