@@ -91,7 +91,7 @@ light_saml_symfony_bridge:
         idp:
             files:
                 - %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/openidp.feide.no.xml
-                - %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/lightsaml.local.idp.xml
+                - %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/localhost-lightsaml-lightsaml-idp.xml
                 - %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/testshib-providers.xml
     store:
         id_state: id_store
