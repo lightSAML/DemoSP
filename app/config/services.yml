@@ -9,3 +9,9 @@ services:
         arguments:
             - "@=service('doctrine').getManager()"
             - @lightsaml_sp.username_mapper.simple
+
+    id_store:
+        class: AppBundle\Store\IdStore
+        arguments:
+            - "@=service('doctrine').getManager()"
+            - @lightsaml.system.time_provider
