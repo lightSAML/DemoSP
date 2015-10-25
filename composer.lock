@@ -1079,12 +1079,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightSAML/lightSAML.git",
-                "reference": "f7cc843d9b6bb0ea93dc1ae315a23621c50bfe1d"
+                "reference": "842c81f646b2ca33ea6a2052071dab82dbcda194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightSAML/lightSAML/zipball/f7cc843d9b6bb0ea93dc1ae315a23621c50bfe1d",
-                "reference": "f7cc843d9b6bb0ea93dc1ae315a23621c50bfe1d",
+                "url": "https://api.github.com/repos/lightSAML/lightSAML/zipball/842c81f646b2ca33ea6a2052071dab82dbcda194",
+                "reference": "842c81f646b2ca33ea6a2052071dab82dbcda194",
                 "shasum": ""
             },
             "require": {
@@ -1137,7 +1137,7 @@
                 "lightSAML",
                 "php"
             ],
-            "time": "2015-10-22 14:25:06"
+            "time": "2015-10-25 19:23:23"
         },
         {
             "name": "lightsaml/sp-bundle",
