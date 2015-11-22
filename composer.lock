@@ -1079,12 +1079,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightSAML/lightSAML.git",
-                "reference": "b4850be5f5218fa46386f0a2d9721f0776f26454"
+                "reference": "8b8c9eb2c90b366f15288737e61f9e0a8eed5ce0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightSAML/lightSAML/zipball/b4850be5f5218fa46386f0a2d9721f0776f26454",
-                "reference": "b4850be5f5218fa46386f0a2d9721f0776f26454",
+                "url": "https://api.github.com/repos/lightSAML/lightSAML/zipball/8b8c9eb2c90b366f15288737e61f9e0a8eed5ce0",
+                "reference": "8b8c9eb2c90b366f15288737e61f9e0a8eed5ce0",
                 "shasum": ""
             },
             "require": {
@@ -1095,11 +1095,12 @@
                 "symfony/http-foundation": "~2.3"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "v0.1.2",
                 "monolog/monolog": "~1.3",
                 "phpunit/phpunit": "~4.5",
                 "pimple/pimple": "~3.0",
-                "squizlabs/php_codesniffer": "~2.0"
+                "satooshi/php-coveralls": "~0.6",
+                "symfony/css-selector": "~2.3",
+                "symfony/dom-crawler": "~2.3"
             },
             "suggest": {
                 "lightsaml/sp-bundle": "Symfony 2 SP security bundle",
@@ -1137,7 +1138,7 @@
                 "lightSAML",
                 "php"
             ],
-            "time": "2015-10-25 19:39:41"
+            "time": "2015-11-22 16:21:53"
         },
         {
             "name": "lightsaml/sp-bundle",
@@ -1145,12 +1146,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightSAML/SpBundle.git",
-                "reference": "66967e4a214abec026f0f44d52528330b98dadf6"
+                "reference": "f713181ea03a079d153fe215b936d5db38bfae30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightSAML/SpBundle/zipball/66967e4a214abec026f0f44d52528330b98dadf6",
-                "reference": "66967e4a214abec026f0f44d52528330b98dadf6",
+                "url": "https://api.github.com/repos/lightSAML/SpBundle/zipball/f713181ea03a079d153fe215b936d5db38bfae30",
+                "reference": "f713181ea03a079d153fe215b936d5db38bfae30",
                 "shasum": ""
             },
             "require": {
@@ -1158,13 +1159,12 @@
                 "lightsaml/symfony-bridge": "dev-master",
                 "php": ">=5.5.1",
                 "symfony/expression-language": "^2.4",
-                "symfony/framework-bundle": "^2.3"
+                "symfony/framework-bundle": "^2.3",
+                "symfony/security-bundle": "^2.3"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "v0.1.2",
-                "monolog/monolog": "~1.3",
                 "phpunit/phpunit": "~4.5",
-                "squizlabs/php_codesniffer": "~2.0"
+                "satooshi/php-coveralls": "~0.6"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -1178,7 +1178,7 @@
                 "MIT"
             ],
             "description": "Light SAML2 SP Symfony Bundle",
-            "time": "2015-10-21 09:35:44"
+            "time": "2015-11-06 00:05:22"
         },
         {
             "name": "lightsaml/symfony-bridge",
@@ -1190,7 +1190,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightSAML/SymfonyBridgeBundle/zipball/48a01e5d2281bfe826c73403e788dd4c4599ab2b",
+                "url": "https://api.github.com/repos/lightSAML/SymfonyBridgeBundle/zipball/85d5e45e54e26daae64d73b179dd36b42f7f6ddc",
                 "reference": "48a01e5d2281bfe826c73403e788dd4c4599ab2b",
                 "shasum": ""
             },
