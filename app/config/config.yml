@@ -81,7 +81,7 @@ swiftmailer:
 
 light_saml_symfony_bridge:
     own:
-        entity_id: http://localhost/lightsaml/demosp
+        entity_id: https://localhost/lightSAML/DemoSP
         credentials:
             -
                 certificate: %kernel.root_dir%/../vendor/lightsaml/lightsaml/web/sp/saml.crt

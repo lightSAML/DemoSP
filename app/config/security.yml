@@ -33,4 +33,5 @@ security:
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
 
     access_control:
-        - { path: ^/secure, roles: ROLE_USER }
+        - { path: ^/secure, roles: ROLE_USER, requires_channel: https }
+        - { path: ^/, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
